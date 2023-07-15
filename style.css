@@ -7,7 +7,7 @@
 
 
 body{
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
 }
 
 p{
@@ -76,10 +76,11 @@ a:hover{
 main{
     max-width: 800px;
     min-width: 320px;
-    background-color: rgba(143, 143, 143, 0.438);
+    background-color: rgba(63, 63, 63, 0.747);
     text-align: center;
     margin: auto;
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 0px 0px 5px 5px;
+   
 }
