@@ -108,7 +108,7 @@ section img{
 
 img:hover{
     
-    max-width: 400px;
+    max-width: 50%;
     min-width: 400px;
     transition: 2s ease;    
     opacity: 1;
