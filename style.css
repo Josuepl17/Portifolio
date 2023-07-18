@@ -52,6 +52,7 @@ nav{
     background-color: #020d4b;
     padding: 20px;
     border-radius: 5px 5px 0px 0px;
+    border: black 1px solid;
     
 }
 
@@ -82,5 +83,42 @@ main{
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 0px 0px 5px 5px;
+    border: #000000 solid 1px;
    
 }
+
+
+section{
+    display: flex;
+    width: 800px;
+    height: 450px;
+
+}
+
+section img{
+    margin-top: 15px;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9 ;
+    transition: 2s ease;
+    border-radius: 5px;
+   
+}
+
+img:hover{
+    
+    width: 400px;
+  
+    opacity: 1;
+    border: #000000 solid 1px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
