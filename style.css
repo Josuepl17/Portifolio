@@ -90,8 +90,10 @@ main{
 
 section{
     display: flex;
-    max-width: 800px;
+    width: 90%;
+
     height: 400px;
+    margin: auto;
 
 }
 
@@ -102,18 +104,18 @@ section img{
     object-fit: cover;
     opacity: .9 ;
     transition: 2s ease;
-    border-radius: 5px;
+    
    
 }
 
 img:hover{
     
-    max-width: 50%;
-    min-width: 400px;
-    transition: 2s ease;    
+    width: 30%;
+    height: 400px;
+     
     opacity: 1;
-    border: #000000 solid 1px;
-    border-radius: 10px;
+    
+    
     
 }
 
