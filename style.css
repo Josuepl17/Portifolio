@@ -24,7 +24,8 @@ main > div > h1 > img{
     
 }
 main > div > h1 > img:hover{
-    width: 5%;
+    max-width: 4%;
+    min-width: 10px;
     transform: translate(0px, 0px);
 }
 
