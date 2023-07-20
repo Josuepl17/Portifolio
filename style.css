@@ -91,7 +91,7 @@ main{
 section{
     display: flex;
     width: 90%;
-    height: 400px;
+    height: 200px;
     margin: auto;
 
 }
@@ -107,7 +107,7 @@ section img{
 
 section img:hover{
     width: 30%;
-    height: 400px;
+    height: 200px;
     opacity: 1;
 }
 
@@ -122,7 +122,7 @@ section video{
 
 section video:hover{
     width: 30%;
-    height: 400px;
+    height: 200px;
     opacity: 1;
 }
 
