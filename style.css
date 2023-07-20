@@ -7,8 +7,11 @@
 
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #00061b;
+
 }
+
+
 
 p{
     text-align: start;
@@ -30,7 +33,7 @@ header > img{
     display: block;
     margin: auto;
     border-radius: 50%;
-    border: #020d4b 3px solid;
+    border: #ffffff 3px solid;
     
     
 }
@@ -42,7 +45,7 @@ h2{
 img:hover{
     transform: translate(-10px, -10px);
     transition: 1s;
-    width: 235px;
+    width: 300px;
     height: auto;
 }
 
@@ -53,10 +56,10 @@ nav{
     max-width: 800px;
     min-width: 320px;
     margin: auto;
-    background-color: #020d4b;
+    background-color: #010830;
     padding: 20px;
     border-radius: 5px 5px 0px 0px;
-    border: black 1px solid;
+    border: rgb(255, 255, 255) 1px solid;
     
 }
 
@@ -72,7 +75,7 @@ a{
 }
 
 a:hover{
-    background-color: #8e96c288;
+    background-color: #8e96c2de;
     transition: 0.6s;
     transform: translate(-10px, -10px);
 }
@@ -80,13 +83,13 @@ a:hover{
 main{
     max-width: 800px;
     min-width: 320px;
-    background-color: rgba(63, 63, 63, 0.158);
+    background-color: rgba(255, 255, 255, 0.925);
     text-align: center;
     margin: auto;
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 0px 0px 5px 5px;
-    border: #000000 solid 1px;
+    border: #ffffff solid 1px;
    }
 
 
@@ -127,6 +130,8 @@ section video:hover{
     height: 200px;
     opacity: 1;
 }
+
+
 
 
 
