@@ -19,6 +19,17 @@ p{
     padding-right: 10px;
 }
 
+main > div > h1 > img{
+    width: 5%;
+    
+}
+main > div > h1 > img:hover{
+    width: 5%;
+    transform: translate(0px, 0px);
+}
+
+
+
 
 
 div{
@@ -108,15 +119,17 @@ section img{
     object-fit: cover;
     opacity: .9 ;
     transition: 2s ease;
+    
+    
 }
 
-section img:hover{
+main > section > img:hover{
     width: 30%;
     height: 200px;
     opacity: 1;
 }
 
-section video{
+main > section > video{
     margin-top: 15px;
     width: 0px;
     flex-grow: 1;
@@ -125,7 +138,7 @@ section video{
     transition: 2s ease;
 }
 
-section video:hover{
+main > section > video:hover{
     width: 30%;
     height: 200px;
     opacity: 1;
